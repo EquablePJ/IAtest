@@ -1,0 +1,21 @@
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Intelliegnce Database</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="Images/logo.ico">
+    </head>
+    <body>
+        <header>
+            IA Database
+        </header>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="Info.html">IA Information</a>
+            <a href="Gallery.html">Logo's of Agency's</a>
+            <a href="Media.html">Training Oral Recordings</a>
+            <a href="Database.php">Test</a>
+        </nav>
+    </body>
+</html>

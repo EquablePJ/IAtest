@@ -1,0 +1,131 @@
+/* Font from https://www.dafont.com/nasalization.font */
+/* Nasalization Font */
+@font-face {
+    font-family: 'nasalization';
+    src: url('nasalization-rg.woff') format('woff'), /* Newer version broswers*/
+     url('nasalization-rg.ttf') format('truetype'); /* Older version broswers*/
+  }  
+  /* ------------------------------------------------------------------------------------------------------------- */
+  /* Abel Font */
+  @import url("https://fonts.googleapis.com/css?family=Abel");
+  /* ------------------------------------------------------------------------------------------------------------- */
+  /* Oswald Font */
+  @import url("https://fonts.googleapis.com/css?family=Oswald");
+  
+  /* Outline Body CSS */
+  html {
+      background-attachment: fixed;
+      color: #ffffff;
+      background-image: url('Images/background.jpg')
+  
+  }
+  body {
+      margin: 0;
+      min-width: 1000px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 16pt;
+      text-align: center;
+  }
+  footer {
+      color: white;
+      background: black;
+      padding: 20px;
+      opacity: 0.75;
+      text-align: center;
+  }
+  section {
+      width: 810px;
+      margin: 70px auto;
+      padding: 0 40px 20px 40px;
+      background: black;
+      border: 10px solid rgb(131, 0, 0);
+      box-shadow: 0 20px 40px black;
+  }
+  /* Nav and title */
+  header {
+      background: black;
+      padding: 40px;
+      text-align: center;
+  }
+  nav {
+      background: rgb(80, 0, 0);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 10px 20px black;
+  }
+  nav a {
+      color: black;
+      margin: 0 30px;
+      font-size: 24pt;
+      text-decoration: none;
+      
+  }
+  nav a:hover {
+      color: white;
+      text-shadow: 1px 2px 3px grey;
+  }
+  /* Body Content */
+  
+  
+  h1 {
+      font-family: nasalization, sans-serif;
+      font-size: 40pt;
+      color: white;
+      margin: 0;
+      text-shadow: 2px 3px 0 grey;
+  }
+  h2 { 
+      font-family: 'Abel';
+  }
+  h3 {
+      font-family: 'Abel';
+      font-size: 28pt;
+      color: white;
+      margin: 32px 0 24px 0;
+  }
+  h4 {
+      font-family: 'Abel';
+  }
+  h5 {
+      font-family: nasalization, sans-serif;
+      font-size: 20pt;
+      color: white;
+      margin: 0;
+      text-shadow: 2px 3px 0 grey;
+  }
+  
+  #Secret{
+      color: red;
+  }
+  
+  #topsecret {
+      color: rgb(0, 183, 255), 190, 190);
+  }
+  
+  #publixc {
+      color: green;
+  }
+  #eee img{
+      max-width: 60%;
+      height:auto;
+  }
+  
+  img {
+      margin: 0 12px 10px 0;
+  }
+  a {
+      color: white;
+  }
+  a:hover {
+      color: ghostwhite;
+  }
+  p {
+      font-family: "Courier New","Courier","Lucida Sans Typewriter","Lucida Typewriter","monospace";
+  }
+  #class p{
+      font-size: 16px
+  }
+  #clean p{
+      font-family: 'Abel';
+      font-size: 20px; 
+  }
